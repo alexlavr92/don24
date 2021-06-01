@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'glyphicons';
+	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src:
+	     url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+	     url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+	     url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+		 url('../fonts/glyphicons-halflings-regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.eot');
+	src:
+	     url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/Roboto-Regular.woff2') format('woff2'),
+	     url('../fonts/Roboto-Regular.woff') format('woff'),
+	     url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.eot');
+	src:
+	     url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/Roboto-Medium.woff2') format('woff2'),
+	     url('../fonts/Roboto-Medium.woff') format('woff'),
+	     url('../fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.eot');
+	src:
+	     url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/Roboto-Bold.woff2') format('woff2'),
+	     url('../fonts/Roboto-Bold.woff') format('woff'),
+	     url('../fonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Roboto-Mono';
+	src: url('../fonts/RobotoMono-Light.eot');
+	src:
+	     url('../fonts/RobotoMono-Light.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/RobotoMono-Light.woff2') format('woff2'),
+	     url('../fonts/RobotoMono-Light.woff') format('woff'),
+	     url('../fonts/RobotoMono-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'als_rublregular';
+    src: url('../fonts/rouble-webfont.eot') format('eot');
+    src: url('../fonts/rouble-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rouble-webfont.woff2') format('woff2'),
+         url('../fonts/rouble-webfont.woff') format('woff'),
+         url('../fonts/rouble-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

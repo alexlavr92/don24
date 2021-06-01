@@ -1,0 +1,158 @@
+.news-page .news-release-wrapper {
+    padding-top: 40px;
+}
+
+.news-page .news-release-wrapper .st2-slider-slide {
+    padding: 0;
+    background: transparent;
+    display: block;
+}
+
+
+.news-wrapper .lazy-load {
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.news-wrapper .st2-slider-slide:hover .lazy-load {
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.news-wrapper .st2-slider-slide_headline {
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+.news-wrapper .st2-slider-slide:hover .st2-slider-slide_headline {
+    color: #205DB2;
+}
+
+.news-page .news-wrapper .btn-wrapper {
+    padding-top: 35px;
+}
+
+
+.news-page .storys-wrapper .st3-slider-slide {
+    display: block;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.news-page .storys-wrapper .st3-slider-slide:hover,
+.news-page .storys-wrapper .st3-slider-slide:focus,
+.news-page .storys-wrapper .st3-slider-slide:active {
+    -webkit-box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+            box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+
+.news-page .storys-wrapper > .col-lg-4 {
+    margin-top: 10px;
+}
+.news-page .storys-wrapper > .col-lg-12:first-child {
+    margin-bottom: 17px;
+}
+
+.news-page .storys-wrapper .btn-wrapper {
+    margin-top: 45px;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .news-wrapper .st2-slider-slide .swiper-lazy {
+        height: 53vw;
+    }
+    .storys-wrapper .st3-slider-slide .swiper-lazy {
+        height: 14vw;
+    }
+    .news-page .right-aside .incidents-wrapper {
+        padding-top: 60px;
+    }
+    .news-page .right-aside .link-wrapper {
+        margin-bottom: 30px;
+    }
+    .storys-wrapper .col-md-4:nth-child(7) ~ .col-md-4,
+    .news-page .incident-item:nth-child(4) ~ .incident-item {
+        display: none;
+    }
+
+    .news-page .incident-item {
+        padding: 25px 20px;
+        -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+                box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    }
+    .news-page  .incident-item-date {
+        top: 25px;
+        right: 20px;
+    }
+
+    .news-page .incident-item:not(:last-child):after {
+        content: none;
+    }
+    .news-page .incident-item + .incident-item {
+        margin-top: 10px;
+    }
+    .news-page .incidents-wrapper .btn-wrapper {
+        margin-top: 27px;
+    }
+    .news-page .right-aside .link-wrapper > a {
+         display: inline;
+         border-bottom: 1px solid #E84748;
+         line-height: 150%;
+         -webkit-transition: border-color .2s ease;
+         -o-transition: border-color .2s ease;
+         transition: border-color .2s ease;
+     }
+     .news-page .right-aside .link-wrapper > a:hover,
+     .news-page .right-aside .link-wrapper > a:focus,
+     .news-page .right-aside .link-wrapper > a:active {
+         border-color: #205DB2;
+     }
+          .news-page .right-aside .link-wrapper > a:before {
+         content: none;
+     }
+}
+@media screen and (max-width: 969px) {
+      .storys-wrapper .st3-slider-slide .swiper-lazy {
+        height: 23vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .news-page .news-release-wrapper {
+        text-align: left;
+        padding-top: 30px;
+    }
+   
+    .news-wrapper .st2-slider-slide .swiper-lazy {
+        height: 51vw;
+    }
+    .news-page .storys-wrapper .st3-slider-slide {
+        text-align: left;
+    }
+    .storys-wrapper .st3-slider-slide .swiper-lazy {
+        height: 43vw;
+    }
+         .storys-wrapper .col-xs-12:nth-child(6) ~ .col-xs-12:not(:last-child) {
+         display: none;
+     }
+
+    .news-page .incidents-wrapper {
+        background-image: url(../media/img/new-page/incident-bg.png);
+        background-position: 50% 20%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 330px) {
+    .news-page .bootstrap-datetimepicker-widget {
+        left: 0 !important;
+        width: 100%;
+    }
+    .news-page .bootstrap-datetimepicker-widget.dropdown-menu.bottom:before,
+    .news-page .bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+        content: none;
+    }
+
+
+}

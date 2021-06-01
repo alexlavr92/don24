@@ -1,0 +1,58 @@
+.about-wrapper .youtube-bottom-banner {
+    margin-top: 0;
+    height: 92px;
+}
+
+.about-descript, 
+.document-wrapper,
+.contacts-wrapper {
+    margin-top: 43px;
+}
+
+.about-descript_text,
+.contacts-wrapper > .text {
+    font-size: 14px;
+line-height: 170%;
+color: #000000;
+}
+
+.about-descript_text > .list-default {
+    padding: 0;
+    margin: 0;
+    padding-left: 16px;
+}
+.document-wrapper .link {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.document-wrapper .link.link-blue > span {
+    position: relative;
+    font-size: 14px;
+    line-height: 170%;
+    display: block;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-left: 13px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1199px) {
+    .about-wrapper .youtube-bottom-banner + .about-descript {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-descript_text,
+.contacts-wrapper > .text,
+.document-wrapper .link.link-blue > span {
+    font-size: 12px !important;
+line-height: 150% !important;
+}
+
+}

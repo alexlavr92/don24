@@ -1,0 +1,87 @@
+.program-item_img {
+    height: 157px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: -webkit-box-shadow .2s ease;
+    transition: -webkit-box-shadow .2s ease;
+    -o-transition: box-shadow .2s ease;
+    transition: box-shadow .2s ease;
+    transition: box-shadow .2s ease, -webkit-box-shadow .2s ease;
+}
+
+.programs-item {
+    display: block;
+}
+.program-item_headline {
+    padding-top: 9px;
+    font-weight: bold;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+
+.programs-item:hover .program-item_img,
+.programs-item:focus .program-item_img,
+.programs-item:active .program-item_img {
+    -webkit-box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+
+.programs-item:hover .program-item_headline,
+.programs-item:focus .program-item_headline,
+.programs-item:active .program-item_headline {
+    color: #205DB2;
+}
+
+.programs-wrapper .col-lg-4:not(:nth-child(-n+3)) {
+    margin-top: 27px;
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .programs-wrapper .col-lg-4 {
+        margin-top: 0 !important;
+    }
+    .program-item_img {
+        height: 12.7vw;
+    }
+    .programs-wrapper .col-lg-4:not(:nth-child(-n+4)) {
+        margin-top: 27px !important;
+    }
+
+    .programs-wrapper .col-lg-4:nth-child(20) ~ .col-lg-4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 969px) {
+    .program-item_img {
+    height: 17vw;
+    }
+       .programs-wrapper .col-lg-4:not(:nth-child(-n+3)) {
+        margin-top: 27px !important;
+    }
+       .programs-wrapper .col-lg-4:nth-child(18) ~ .col-lg-4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+       .programs-wrapper .col-lg-4:not(:nth-child(-n+2)) {
+        margin-top: 18px !important;
+    }
+    .program-item_img {
+        height: 25vw;
+    }
+    .program-item_headline {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 4px;
+    }
+}

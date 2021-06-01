@@ -1,0 +1,11 @@
+/* Bootstrap 3.0 CSS */
+@import '../css/plugins/bootstrap.min.css';
+@import '../css/plugins/bootstrap-theme.min.css';
+
+/* Import Fonts.css */
+
+@import "../css/fonts.css";
+
+/* Import global.css */
+
+@import "../css/global.css";
